@@ -1,0 +1,66 @@
+/* body{background: sienna;} */
+#container{
+    position: relative;
+    float: center;
+    width: 350px;
+    /* height: 300px; */
+    margin: 20px auto;
+    background-color: green;
+}
+#calculator{
+    background-color: lightgreen;
+    /* text-align: center; */
+    height: 295px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+#labels{
+    width: 100%;
+    text-align: right;
+    margin: auto;
+    height: 20px;
+    padding-top: 20px;
+    border: 0;
+    background: #d3d3d3;
+}
+#ans{
+    width: 100%;
+    margin: 0 auto;
+    text-align: right;
+    border: 0;
+    height: 60px;
+    background-color: lightgray;
+    /* margin:  0px; */
+    font-size: 30px;
+}
+#numbers{
+    float: left;
+    width: 60%;
+    margin: 0px;
+    background-color: white;
+}
+#operators{
+    float: left;
+    width: 20%;
+    background-color: orange;
+    margin: 0px;
+    border: 5px;
+}
+input[type="button"]{
+    border: 0;
+    width: 65px;
+    margin: 0px;
+    background-color: white;
+    text-align: center;
+height: 48px;}
+input[value="x"]{width: 90px;
+height: 38px;background: #d3d3d3;}
+input[value="-"]{width: 90px;
+        height: 38px; background: #d3d3d3;}
+input[value="+"]{width: 90px;
+            height: 38px; background: #d3d3d3;}
+input[value="DEL"]{width: 90px;
+                height: 39px; background: #d3d3d3;}
+                
+#division{width: 90px;
+    height: 39px; background: #d3d3d3;}
